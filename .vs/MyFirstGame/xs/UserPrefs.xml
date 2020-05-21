@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{F536D4E2-7E6F-BB40-F6EB-7C64A65B74DF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Documents/GitHub/Unity/Assets/Scripts/GameScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
     <Files>
       <File FileName="Assets/Scripts/prefabScript.cs" Line="28" Column="10" />
       <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
-      <File FileName="../Documents/GitHub/Unity/Assets/Scripts/MovePrefab.cs" Line="12" Column="1" />
-      <File FileName="../Documents/GitHub/Unity/Assets/Scripts/GameScript.cs" Line="9" Column="30" />
-      <File FileName="../Documents/GitHub/Unity/Assets/Scripts/MenuController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RotetePrefabs.cs" Line="17" Column="52" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="35" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +11,7 @@
           <Node name="MyFirstGame" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="RotetePrefabs.cs" selected="True" />
+                <Node name="PlayerScript.cs" selected="True" />
               </Node>
               <Node name="Standard Assets" expanded="True">
                 <Node name="Utility" expanded="True" />
