@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal") * Time.deltaTime;
         float moveVertical = Input.GetAxis("Vertical");
 
-        rotation -= moveHorizontal;
+        rotation += moveHorizontal;
 
         Vector3 movement = new Vector3(0.0f, 0.0f, speed * moveVertical * Time.deltaTime);
         Vector3 targetDirection = new Vector3(Mathf.Sin(rotation), 0, Mathf.Cos(rotation));
@@ -27,6 +27,14 @@ public class PlayerScript : MonoBehaviour
 
         transform.Translate(movement);
 
+    }
+    //Das Einsammeln 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag.Equals("Collectable"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
         
