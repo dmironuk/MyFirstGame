@@ -81,6 +81,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="VuforiaScripts">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -89,6 +92,9 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
@@ -296,6 +302,12 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.ptc.vuforia.engine@9.1.7/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.ptc.vuforia.engine@9.1.7/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -659,6 +671,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{9C207F65-F7EF-CF98-0EFC-945C895E527D}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="EditorMigrationScripts.csproj">
+      <Project>{371A056F-E19B-FF3C-F9B9-2993604C3120}</Project>
+      <Name>EditorMigrationScripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
