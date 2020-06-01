@@ -605,7 +605,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &271806641
+--- !u!21 &284179557
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'chips_scaledMaterial
 
-    -12418'
+    23458'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1274,34 +1274,6 @@ MonoBehaviour:
     e33: 1
   mPrevParent: {fileID: 1979345388}
   mPreviousVirtualSceneScaleFactor: 1
---- !u!21 &657418775
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'BoxMaterial
-
-    -9254'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f78768649fe34456b19d6fc2fb6eac90, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f67f9ead9bb40c6b62d3bd0ae10b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
 --- !u!114 &726987971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2255,6 +2228,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255919776}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1353872721
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'BoxMaterial
+
+    23380'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f78768649fe34456b19d6fc2fb6eac90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!43 &1357653474
 Mesh:
   m_ObjectHideFlags: 0
@@ -2690,8 +2691,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbc94ec04cec4737b792aec054f0bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 1000
-  playerBody: {fileID: 1476861596}
+  target: {fileID: 0}
+  offsetPosition: {x: 0, y: 0, z: 0}
+  offsetPositionSpace: 1
+  lookAt: 1
 --- !u!1 &1476861595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2195052491752148445, guid: 47287310c606048008e593bbd13ac3e1,
@@ -3213,7 +3216,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 657418775}
+  - {fileID: 1353872721}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3932,7 +3935,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 271806641}
+  - {fileID: 284179557}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4017,6 +4020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f67f9ead9bb40c6b62d3bd0ae10b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
 --- !u!114 &1979345396
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -72,8 +72,11 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\ButtonEventHandler.cs" />
+    <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\Return.cs" />
     <Compile Include="Assets\Scripts\RotetePrefabs.cs" />
     <Compile Include="Assets\Scripts\prefabScript.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\Demo.xml" />
