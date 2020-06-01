@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Return : MonoBehaviour
 {
+    public GameObject Menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,10 @@ public class Return : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void Restart()
+    {
+        Menu.SetActive(false);
     }
 }
