@@ -72,12 +72,19 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\ButtonEventHandler.cs" />
+    <Compile Include="Assets\Scripts\CollectableBehaviorSystem.cs" />
+    <Compile Include="Assets\Scripts\CollectableComponent.cs" />
     <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PlayerBehaviourSystem.cs" />
+    <Compile Include="Assets\Scripts\PlayerComponent.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\RandomSystem.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\Return.cs" />
     <Compile Include="Assets\Scripts\RotetePrefabs.cs" />
+    <Compile Include="Assets\Scripts\SpawnCollectableComponent.cs" />
+    <Compile Include="Assets\Scripts\SpawnCollectableSystem.cs" />
     <Compile Include="Assets\Scripts\prefabScript.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\Demo.xml" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
@@ -140,6 +147,99 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties.UI">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Properties.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Serialization.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Serialization.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.BuildUtils">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Serialization">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid.EndToEnd.Tests">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.Hybrid.EndToEnd.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Deformations">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Deformations.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties.UI.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Properties.UI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -320,6 +420,15 @@
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.ptc.vuforia.engine@9.1.7/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.burst@1.3.0-preview.10/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.collections@0.8.0-preview.5/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
