@@ -6,10 +6,12 @@ using Vuforia;
 public class ButtonEventHandler : MonoBehaviour
 {
     public Transform Player;
+
     bool moveForward = false;
     bool moveBackward = false;
     bool moveLeft = false;
     bool moveRigth = false;
+
     float moveSpeed = 10f;
     float rotationSpeed = 10f;
 
@@ -71,16 +73,12 @@ public class ButtonEventHandler : MonoBehaviour
     public void Update()
     {
         if (moveForward != false)
-            //Player.transform.Translate(Vector3.forward * 100.0f * Time.deltaTime, Space.World);
             Player.transform.Translate(new Vector3(0, 0, Time.deltaTime * moveSpeed));
         else if (moveBackward != false)
-            //Player.transform.Translate(-Vector3.forward * 100.0f * Time.deltaTime, Space.World);
             Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
         else if (moveRigth != false)
-            //Player.transform.position += Vector3.right * 100.0f * Time.deltaTime;
             Player.transform.Translate(0, Time.deltaTime * rotationSpeed, 0);
         else if (moveLeft != false)
-            //Player.transform.position += Vector3.left * 100.0f * Time.deltaTime;
             Player.transform.Translate(0, Time.deltaTime * -rotationSpeed, 0);
 
     }
