@@ -22,6 +22,7 @@ public class MenuManagerScript : MonoBehaviour
         {
             Time.timeScale = 0f;
             Menu.SetActive(true);
+            
         }
         else
             Time.timeScale = 1f;

@@ -6,6 +6,12 @@ using Vuforia;
 public class ButtonEventHandler : MonoBehaviour
 {
     public Transform Player;
+    bool moveForward = false;
+    bool moveBackward = false;
+    bool moveLeft = false;
+    bool moveRigth = false;
+    float moveSpeed = 10f;
+    float rotationSpeed = 10f;
 
     void Start()
     {
@@ -20,31 +26,63 @@ public class ButtonEventHandler : MonoBehaviour
     }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
+        moveForward = true;
         switch (vb.VirtualButtonName)
         {
             case "Forward":
                 // Do something
+                
                 Debug.Log("Forward");
-                Player.transform.Translate(Vector3.forward * 100.0f * Time.deltaTime, Space.World);
+                moveForward = true;
+                
                 break;
             case "Backward":
                 // Do Something
+                
                 Debug.Log("Backward");
-                Player.transform.Translate(-Vector3.forward * 100.0f * Time.deltaTime, Space.World);
+                moveBackward = true;
+                
                 break;
             case "Left":
                 // Do Something
+               
                 Debug.Log("Left");
-                Player.transform.position += Vector3.left * 100.0f * Time.deltaTime;
+                moveLeft = true;
+                
                 break;
             case "Right":
                 // Do Something
+                
                 Debug.Log("Right");
-                Player.transform.position += Vector3.right * 100.0f * Time.deltaTime;
+                moveRigth = true;
+                
                 break;
         }
     }
 
-    public void OnButtonReleased(VirtualButtonBehaviour vb) { }
+    public void OnButtonReleased(VirtualButtonBehaviour vb)
+    {
+        moveRigth = false;
+        moveLeft = false;
+        moveForward = false;
+        moveRigth = false;
+    }
+
+    public void Update()
+    {
+        if (moveForward != false)
+            //Player.transform.Translate(Vector3.forward * 100.0f * Time.deltaTime, Space.World);
+            Player.transform.Translate(new Vector3(0, 0, Time.deltaTime * moveSpeed));
+        else if (moveBackward != false)
+            //Player.transform.Translate(-Vector3.forward * 100.0f * Time.deltaTime, Space.World);
+            Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
+        else if (moveRigth != false)
+            //Player.transform.position += Vector3.right * 100.0f * Time.deltaTime;
+            Player.transform.Translate(0, Time.deltaTime * rotationSpeed, 0);
+        else if (moveLeft != false)
+            //Player.transform.position += Vector3.left * 100.0f * Time.deltaTime;
+            Player.transform.Translate(0, Time.deltaTime * -rotationSpeed, 0);
+
+    }
 
 }
