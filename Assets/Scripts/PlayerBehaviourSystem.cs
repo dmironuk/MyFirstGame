@@ -19,8 +19,9 @@ public class PlayerBehaviourSystem : SystemBase
         {
             player.rotationAngle += moveHorizontal * player.moveSpeed;
             float3 targetDirection = new float3((float)Math.Sin(player.rotationAngle), 0, (float)Math.Cos(player.rotationAngle));
+
             rotation.Value = quaternion.LookRotationSafe(targetDirection, Vector3.up);
-            transition.Value += (targetDirection * player.moveSpeed * moveVertical);
+            transition.Value += targetDirection * player.moveSpeed * moveVertical;
 
         }).Schedule();
 
