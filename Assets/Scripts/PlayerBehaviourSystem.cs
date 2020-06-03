@@ -22,8 +22,9 @@ public class PlayerBehaviourSystem : SystemBase
 
             rotation.Value = quaternion.LookRotationSafe(targetDirection, Vector3.up);
             transition.Value += targetDirection * player.moveSpeed * moveVertical;
+            
 
-        }).Schedule();
+            }).Schedule();
 
     }
 }
