@@ -43,12 +43,10 @@ public class MenuManagerScript : MonoBehaviour
         }
     }
 
-    void Pause() 
+    public void Pause() 
     {
-        if (gameIsPaused == false)
-        {
-            Menu.SetActive(true);
-            Time.timeScale = 0f;
-        }
+        Menu.SetActive(true);
+        Time.timeScale = 0f;
+        gameIsPaused = true;
     }
 }
