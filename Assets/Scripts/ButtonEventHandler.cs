@@ -28,7 +28,7 @@ public class ButtonEventHandler : MonoBehaviour
     }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        moveForward = true;
+        moveForward = false;
         switch (vb.VirtualButtonName)
         {
             case "Forward":
@@ -77,9 +77,9 @@ public class ButtonEventHandler : MonoBehaviour
         else if (moveBackward != false)
             Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
         else if (moveRigth != false)
-            Player.transform.Translate(0, Time.deltaTime * rotationSpeed, 0);
+            Player.transform.Rotate(Vector3.up * moveSpeed);
         else if (moveLeft != false)
-            Player.transform.Translate(0, Time.deltaTime * -rotationSpeed, 0);
+            Player.transform.Rotate(-Vector3.up * moveSpeed);
 
     }
 

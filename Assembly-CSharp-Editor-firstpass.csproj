@@ -81,68 +81,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="VuforiaScripts">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="VuforiaEditorScripts">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.CacheServer">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
@@ -156,6 +108,9 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
@@ -168,14 +123,32 @@
     <Reference Include="Unity.Properties">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Scenes.Hybrid">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaScripts">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Extensions">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
@@ -183,11 +156,32 @@
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Entities.BuildUtils">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Serialization">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Hybrid.EndToEnd.Tests">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Entities.Hybrid.EndToEnd.Tests.dll</HintPath>
@@ -216,17 +210,23 @@
     <Reference Include="Unity.ScriptableBuildPipeline">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rendering.Hybrid">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rendering.Hybrid.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Rendering.Hybrid.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -429,9 +429,6 @@
     <Reference Include="Vuforia.UnityExtensions.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.ptc.vuforia.engine@9.1.7/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.burst@1.3.0-preview.10/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -440,6 +437,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

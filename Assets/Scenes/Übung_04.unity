@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad8b7abedffb48deb68db97a8179307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 10
   rotationAngle: 0
 --- !u!114 &1476861600
 MonoBehaviour:

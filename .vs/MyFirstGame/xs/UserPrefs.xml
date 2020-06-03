@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{F536D4E2-7E6F-BB40-F6EB-7C64A65B74DF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollectableBehaviorSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonEventHandler.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerBehaviourSystem.cs" Line="24" Column="1" />
       <File FileName="Assets/Scripts/CollectableComponent.cs" />
-      <File FileName="Assets/Scripts/SpawnCollectableSystem.cs" />
-      <File FileName="Assets/Scripts/RandomSystem.cs" Line="31" Column="1" />
-      <File FileName="Assets/Scripts/CollectableBehaviorSystem.cs" Line="8" Column="10" />
+      <File FileName="Assets/Scripts/SpawnCollectableSystem.cs" Line="9" Column="4" />
+      <File FileName="Assets/Scripts/RandomSystem.cs" Line="8" Column="25" />
+      <File FileName="Assets/Scripts/CollectableBehaviorSystem.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scripts/ButtonEventHandler.cs" Line="31" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +14,7 @@
           <Node name="MyFirstGame" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CollectableBehaviorSystem.cs" selected="True" />
+                <Node name="ButtonEventHandler.cs" selected="True" />
               </Node>
             </Node>
           </Node>
