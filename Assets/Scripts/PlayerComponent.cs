@@ -3,7 +3,7 @@
 [GenerateAuthoringComponent]
 public struct PlayerComponent : IComponentData
 {
-    public float speed;
+    public float moveSpeed;
     public float rotationAngle;
 }
 

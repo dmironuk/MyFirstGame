@@ -4,5 +4,5 @@
 public struct SpawnCollectableComponent : IComponentData
 {
     public int numberCollectables;
-    public Entity CollectablePrefab;
+    public Entity collectablePrefab;
 }

@@ -11,7 +11,6 @@ public class SpawnCollectableSystem : SystemBase
     protected override void OnCreate()
     {
         m_EntityCommandBufferSystem = World.GetOrCreateSystem<BeginInitializationEntityCommandBufferSystem>();
-
     }
 
     protected override void OnUpdate()
@@ -28,7 +27,7 @@ public class SpawnCollectableSystem : SystemBase
                 {
                     var random = randomArray[nativeThreadIndex];
 
-                    Entity entityInstance = commandBuffer.Instantiate(entityInQueryIndex, collectables.CollectablePrefab);
+                    Entity entityInstance = commandBuffer.Instantiate(entityInQueryIndex, collectables.collectablePrefab);
 
                     float xPosition = random.NextFloat(-10f, 10f);
                     float zPosition = random.NextFloat(-10f, 10f);

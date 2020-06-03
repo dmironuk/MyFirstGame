@@ -666,8 +666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3c362f0936bb4a39bf7f8d478585ac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  rotation: 0
+  speed: 10
+  rotation: 10
 --- !u!114 &1476861599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,8 +680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad8b7abedffb48deb68db97a8179307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rotationAngle: 0
+  moveSpeed: 10
+  rotationAngle: 10
 --- !u!114 &1476861600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +826,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2113270858}
+  - component: {fileID: 2113270860}
+  - component: {fileID: 2113270859}
   m_Layer: 0
   m_Name: SpawnCollectable
   m_TagString: Untagged
@@ -847,3 +849,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113270859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113270857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 0
+--- !u!114 &2113270860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113270857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e618ff5767a26492cad518badc5c3ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberCollectables: 10
+  collectablePrefab: {fileID: 3804123767373133436, guid: 6ac69ae4b13144c5ca3b910742f04bfa,
+    type: 3}
