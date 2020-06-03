@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class MenuManagerScript : MonoBehaviour
 {
     public GameObject Menu;
-    public bool gameIsPaused = true;
+    public bool gameIsPaused = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,12 +20,35 @@ public class MenuManagerScript : MonoBehaviour
 
         if (gameIsPaused)
         {
-            Time.timeScale = 0f;
-            Menu.SetActive(true);
-            
+            Pause();
+
         }
         else
-            Time.timeScale = 1f;
+            Resume();
+        
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Resume()
+    {
+        if (gameIsPaused == true)
+        {
             Menu.SetActive(false);
+            Time.timeScale = 1f;
+            gameIsPaused = false;
+        }
+    }
+
+    void Pause() 
+    {
+        if (gameIsPaused == false)
+        {
+            Menu.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 }
