@@ -15,7 +15,7 @@ public class ButtonEventHandler : MonoBehaviour
     float moveSpeed = 10f;
 
     float elapsed = 0.0f;
-    float rotateSpeed = 1000f;
+    float rotateSpeed = 100f;
 
     void Start()
     {
