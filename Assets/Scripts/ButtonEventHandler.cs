@@ -4,16 +4,24 @@ using UnityEngine;
 using Vuforia;
 
 public class ButtonEventHandler : MonoBehaviour
-{
+{  
     public Transform Player;
 
-    bool moveForward = false;
-    bool moveBackward = false;
-    bool moveLeft = false;
-    bool moveRigth = false;
+    private bool moveForward = false;
+    private bool moveBackward = false;
+    private bool moveLeft = false;
+    private bool moveRigth = false;
 
     float moveSpeed = 10f;
-    float rotationSpeed = 10f;
+
+    float elapsed = 0.0f;
+   
+
+    float rotateSpeed = 1000f;
+
+   
+    
+   
 
     void Start()
     {
@@ -52,19 +60,18 @@ public class ButtonEventHandler : MonoBehaviour
                 moveLeft = true;
                 
                 break;
-            case "Right":
+            case "Rechts":
                 // Do Something
                 
-                Debug.Log("Right");
-                moveRigth = true;
-                
+                Debug.Log("Rechts");
+                moveRigth = true; 
                 break;
         }
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        moveRigth = false;
+        moveBackward = false;
         moveLeft = false;
         moveForward = false;
         moveRigth = false;
@@ -72,15 +79,20 @@ public class ButtonEventHandler : MonoBehaviour
 
     public void Update()
     {
+        elapsed += Time.deltaTime;
+        Vector3 EulerRotation = new Vector3(0, elapsed * rotateSpeed, 0);
+
         if (moveForward != false)
             Player.transform.Translate(new Vector3(0, 0, Time.deltaTime * moveSpeed));
         else if (moveBackward != false)
-            Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
+            //Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
+            Player.transform.rotation *= Quaternion.Euler(-EulerRotation);
         else if (moveRigth != false)
-            Player.transform.Rotate(Vector3.up * moveSpeed);
-        else if (moveLeft != false)
-            Player.transform.Rotate(-Vector3.up * moveSpeed);
-
+            Player.transform.rotation *= Quaternion.Euler(-EulerRotation);
+            //Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
+        else if (moveLeft != false)    
+            Player.transform.rotation *= Quaternion.Euler(EulerRotation);
     }
 
 }
+

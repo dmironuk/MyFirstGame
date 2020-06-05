@@ -132,6 +132,9 @@
     <Reference Include="VuforiaScripts">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
@@ -207,6 +210,9 @@
     <Reference Include="Unity.Transforms.Editor">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
@@ -227,12 +233,6 @@
     </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
       <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Editor">
-      <HintPath>/Users/denismyroniuk/MyFirstGame/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
