@@ -15,13 +15,7 @@ public class ButtonEventHandler : MonoBehaviour
     float moveSpeed = 10f;
 
     float elapsed = 0.0f;
-   
-
     float rotateSpeed = 1000f;
-
-   
-    
-   
 
     void Start()
     {
@@ -60,10 +54,10 @@ public class ButtonEventHandler : MonoBehaviour
                 moveLeft = true;
                 
                 break;
-            case "Rechts":
+            case "Right":
                 // Do Something
                 
-                Debug.Log("Rechts");
+                Debug.Log("Right");
                 moveRigth = true; 
                 break;
         }
@@ -85,11 +79,9 @@ public class ButtonEventHandler : MonoBehaviour
         if (moveForward != false)
             Player.transform.Translate(new Vector3(0, 0, Time.deltaTime * moveSpeed));
         else if (moveBackward != false)
-            //Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
-            Player.transform.rotation *= Quaternion.Euler(-EulerRotation);
+            Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
         else if (moveRigth != false)
             Player.transform.rotation *= Quaternion.Euler(-EulerRotation);
-            //Player.transform.Translate(0, 0, Time.deltaTime * -moveSpeed);
         else if (moveLeft != false)    
             Player.transform.rotation *= Quaternion.Euler(EulerRotation);
     }
