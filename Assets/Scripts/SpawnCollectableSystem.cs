@@ -29,8 +29,8 @@ public class SpawnCollectableSystem : SystemBase
 
                     Entity entityInstance = commandBuffer.Instantiate(entityInQueryIndex, collectables.collectablePrefab);
 
-                    float xPosition = random.NextFloat(-10f, 10f);
-                    float zPosition = random.NextFloat(-10f, 10f);
+                    float xPosition = random.NextFloat(-100f, 100f);
+                    float zPosition = random.NextFloat(-100f, 100f);
 
                     float3 position = new float3(xPosition, 1f, zPosition);
 
